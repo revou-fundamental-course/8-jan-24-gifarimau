@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU Mini Coding Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+    <div class="nav">
+        <h1 class="title" id="title">Welcome to Katik</h1>
+        <p class="subtitle">Hai Sobat, Selamat datang di Katik :] <br> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai Luas dan Keliling Persegi</p>
+    </div>
+    </header>
+    <!-- /Header -->
+    <!-- Content -->
+    <main>
+    <section id="rectangle">
+    <div class="card">
+        <div class="card-header">
+            <h2>Persegi</h2>
+        </div>
+        <div class="card-body">
+            <img src="assets/persegi.JPG" alt="imagee">
+        <div>
+            <p>Rumus Luas Persegi yaitu : </p>
+            <h4>L = S x S</h4>
+            <p>Di mana :</p>
+            <p>L = Luas</p>
+            <p>S = Sisi</p>
+            <p>S = Sisi</p>
+            <br>
+            <br>
+            <p>Rumus Keliling Persegi yaitu : </p>
+            <h4>K = 4 x S</h4>
+            <p>Di mana :</p>
+            <p>K = Keliling</p>
+            <p>S = Sisi</p>
+            <br>
+        </div>
+        </div>
+        <hr>
+        <div class="card-form">
+            <h4>Masukkan Sisi Perseginya</h4>
+            <div class="inputSection">
+                <input type="text" id="s" oninput="luas(), keliling()">
+            </div>
+
+            <div class="hasil">
+                <p>Luas Persegi Adalah = <span id="luas"></span></p> <br>
+                <p>Keliling Persegi Adalah = <span id="keliling"></span></p>
+            </div>
+            <div class="button">
+                <button id="countButton" type="button" value="Hitung" onclick="">Hitung</button>
+                <button id="resetButton" type="button" value="Reset" onclick="">Reset</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    </main>
+    <!-- /Content -->
+    <!-- Footer -->
+    <footer>
+        <p><a href="#title">Kembali ke atas</a> <br>by: gifamau@gmail.com</p>
+    </footer>
+    <!-- /Footer -->
+</body>
+</html>

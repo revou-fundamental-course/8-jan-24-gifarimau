@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 10px;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.card {
+    border: 1px cornflowerblue solid;
+    box-shadow: 0px 14px 5px -7px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body>img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.card-form {
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#s {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid greenyellow;
+    padding: 8px;
+}
+
+#s:focus {
+    border: solid black;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #739072;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4f6f52;
+}
+
+button:active {
+    background-color: #3a4d39;
+    transform: translateY(5px);
+}
+
+#countButton {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    align-items: center;
+}
+
+#resetButton {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    align-items: end;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    background-color:cornflowerblue;;
+    padding: 30px;
+    margin-top: 8px;
+}
